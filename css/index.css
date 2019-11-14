@@ -171,7 +171,8 @@ h2{
 
 .services-header{
 	font-size: 30px;
-	margin-top:20px;
+    margin-top:20px;
+    padding: 20px;
 }
 
 .services-paragraph{
@@ -211,7 +212,8 @@ button{
 .service-facts-container{
 	padding: 10px;
 	display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
+    margin-right: 50px;
 }
 
 .child2{
@@ -279,6 +281,15 @@ ul{
     .contact {
         margin: 0 30px;
     }
+
+    .service-facts-container{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .serv-img{
+        max-width: 100%;
+    
 }
 
 /* Phone */
@@ -342,4 +353,16 @@ ul{
     .contact {
         margin: 20px;
     }
+
+    .service-facts-container{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .serv-img{
+        max-width: 100%;
+        margin-left: 20px;
+    
 }
+
