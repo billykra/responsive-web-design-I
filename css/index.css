@@ -152,6 +152,84 @@ footer {
     margin: 40px 0 20px;
 }
 
+/* This is the Services code */ 
+
+h2{
+	font-family: 'Bangers', cursive;
+	font-size: 26px;
+}
+
+.services-container{
+	display:flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.services-header-img{
+	width: 100%;
+	padding: 20px;
+}
+
+.services-header{
+	font-size: 30px;
+	margin-top:20px;
+}
+
+.services-paragraph{
+	padding:10px;
+	margin-bottom: 20px;
+}
+
+.main{
+	padding: 10px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.child{
+	border: 1px solid black;
+	width: 400px;
+	height: 300px;
+	padding: 20px;
+	margin-bottom: 40px;
+	background-color: #e5e2e2;
+}
+
+button{
+	margin-top: 90px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	width: 130px;
+	height: 40px;
+}
+
+.services-header-img{
+	padding: 10px;
+	width: 100%;
+}
+
+.service-facts-container{
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.child2{
+	margin-left: 70px;
+}
+.box1{
+	padding: 15px;
+}
+
+ul{
+	margin-top: 20px;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+
+
+
 /* Tablet */
 @media (max-width: 800px) {
 
